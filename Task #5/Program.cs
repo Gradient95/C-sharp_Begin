@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.Write("Введите число - ");
-int a = int.Parse(Console.ReadLine());
-Console.Write(" f(a) = a*a) ");
+double F(double a)
+{
+    return a * a;
+}
+Console.WriteLine(F(5));
