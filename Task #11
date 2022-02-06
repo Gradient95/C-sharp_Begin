@@ -1,0 +1,5 @@
+int n = new Random().Next(10, 99);
+string str = n.ToString();
+Console.WriteLine(n);
+Console.WriteLine(" ");
+Console.WriteLine(str.Select(c => Int32.Parse(c.ToString())).Max());
