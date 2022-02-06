@@ -1,0 +1,5 @@
+int n = new Random().Next(100, 999);
+string str = n.ToString();
+Console.WriteLine(n);
+Console.WriteLine(" ");
+Console.WriteLine(str[1]);
