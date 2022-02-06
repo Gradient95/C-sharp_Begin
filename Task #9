@@ -1,0 +1,8 @@
+int n = new Random().Next(100, 999);
+int last = Convert.ToInt32(n.ToString()
+                            .AsEnumerable()
+                            .Last()
+                            .ToString());
+Console.Write(n);
+Console.WriteLine(" ");
+Console.Write(last);
